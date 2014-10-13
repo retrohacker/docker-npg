@@ -9,4 +9,4 @@ ENV NODE_ENV production
 VOLUME /usr/src/app
 WORKDIR /usr/src/app
 
-CMD ["npm test"]
+CMD ["npm","test"]
