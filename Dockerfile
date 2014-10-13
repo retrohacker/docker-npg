@@ -9,4 +9,4 @@ ENV NODE_ENV production
 VOLUME /usr/src/app
 WORKDIR /usr/src/app
 
-CMD ["bash","-c","/etc/init.d/postgresql start && npm test"]
+CMD ["npm test"]
